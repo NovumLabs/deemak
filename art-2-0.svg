@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+<rect width="100" height="100" fill="#2e9b4e"/>
+<rect y="58" width="100" height="42" fill="#0f4a26" opacity=".55"/>
+<circle cx="22" cy="26" r="13" fill="#fff" opacity=".2"/>
+<g transform="rotate(-9 50 50)" fill="#fff" stroke="#fff" stroke-linecap="round">
+<g fill="none" stroke-width="2.5"><path d="M50 74V30M50 60l-9-8M50 60l9-8M50 48l-9-8M50 48l9-8M50 36l-7-7M50 36l7-7"/><path d="M26 64A28 28 0 0 1 66 30" stroke-width="5"/></g>
+</g>
+<rect x="4.5" y="86" width="9" height="14" rx="4" fill="#111" opacity=".78"/><circle cx="9.0" cy="81" r="4.2" fill="#111" opacity=".78"/><line x1="12.0" y1="89" x2="15.0" y2="77" stroke="#111" opacity=".78" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="25.0" y="86" width="9" height="14" rx="4" fill="#111" opacity=".78"/><circle cx="29.5" cy="81" r="4.2" fill="#111" opacity=".78"/>
+<rect x="45.5" y="86" width="9" height="14" rx="4" fill="#111" opacity=".78"/><circle cx="50.0" cy="81" r="4.2" fill="#111" opacity=".78"/><line x1="53.0" y1="89" x2="56.0" y2="77" stroke="#111" opacity=".78" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="66.0" y="86" width="9" height="14" rx="4" fill="#111" opacity=".78"/><circle cx="70.5" cy="81" r="4.2" fill="#111" opacity=".78"/>
+<rect x="86.5" y="86" width="9" height="14" rx="4" fill="#111" opacity=".78"/><circle cx="91.0" cy="81" r="4.2" fill="#111" opacity=".78"/><line x1="94.0" y1="89" x2="97.0" y2="77" stroke="#111" opacity=".78" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
