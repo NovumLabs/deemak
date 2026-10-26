@@ -1,0 +1,30 @@
+/* PAGES: long text (essay), competition page, forms, contact */
+/* long text */
+.prose{max-width:68ch}
+.prose p{margin-bottom:1.1em}
+.prose .l-hi p{font-family:var(--serif);font-size:1.02em;line-height:1.95}
+.prose h2{font-family:var(--serif);font-size:1.5rem;color:var(--navy);margin:1.6em 0 .5em;line-height:1.4;border-top:1px solid var(--navy);padding-top:5px}
+.prose h2 span{display:block;font-family:var(--sans);font-weight:400;font-size:1rem;color:var(--mute)}
+.pull{border-left:5px solid var(--yel);background:var(--tint);padding:14px 18px;margin:1.4em 0;font-family:var(--serif);font-size:1.08rem;line-height:1.95}
+.sig{margin-top:1.6em;font-family:var(--serif);font-weight:800;color:var(--navy);line-height:1.6}
+.sig span{display:block;font-family:var(--sans);font-weight:400;color:var(--mute);font-size:.95rem}
+.note{border:1px dashed var(--navy);background:var(--tint);padding:12px 16px;max-width:68ch;font-size:15.5px}
+
+/* competition */
+.year{display:flex;gap:10px;flex-wrap:wrap;padding-top:12px}
+.year a{font-family:var(--serif);font-size:1.7rem;font-weight:800;background:var(--navy);color:#fff;border-radius:30px;padding:2px 26px}
+.year a:hover{background:var(--yel);color:#121212}
+.jury{display:grid;gap:6px 14px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));padding-top:12px}
+.avatar{width:54px;height:54px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-family:var(--serif);font-weight:800;font-size:1.3rem;margin-bottom:6px}
+
+/* forms, contact */
+form.fb{display:grid;gap:16px;max-width:620px;padding-top:12px}
+form.fb label{font-weight:700;line-height:1.4}
+form.fb label small{display:block;font-weight:400;color:var(--mute)}
+form.fb input,form.fb textarea,form.fb select{width:100%;font:inherit;border:2px solid var(--line);border-radius:8px;padding:8px 12px;background:var(--bg);color:var(--ink)}
+form.fb input:focus,form.fb textarea:focus,form.fb select:focus{border-color:var(--navy);outline:none}
+form.fb textarea{min-height:150px}
+form.fb button.go{justify-self:start}
+.dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 22px;max-width:68ch;padding-top:12px}
+.dl dt{font-weight:700;color:var(--navy)}.dl dd{margin:0}
+
