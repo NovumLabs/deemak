@@ -35,3 +35,9 @@ form.fb button.go{justify-self:start}
 #writeup h2 .en-t {
   color: var(--mute) !important;
 }
+@media (max-width: 767px) {
+  #writeup .grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+  #writeup .card { display: contents; }     /* lets poster and text be ordered separately */
+  #writeup .thumb { order: 1; }             /* all three posters first */
+  #writeup .cb { order: 2; padding: 10px 0; border-top: 1px solid #ddd; } /* then the three texts, one by one */
+}
