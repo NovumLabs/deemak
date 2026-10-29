@@ -30,19 +30,48 @@ form.fb button.go{justify-self:start}
 
 /* ===== Results section (#writeup) fixes ===== */
 
-/* Results heading: consistent desktop and mobile colours */
+
+/* ===== Results section (#writeup) fixes ===== */
+
+/* Keep the original desktop heading colours */
 #writeup > h2 {
-    color: var(--navy) !important;
-    border-top-color: var(--navy);
+  color: inherit;
 }
 
 #writeup > h2 .en-t {
-    color: var(--mute) !important;
+  color: inherit;
 }
-/* mobile: all three posters first, then the three texts one by one */
-@media (max-width:767px){
-  #writeup .grid{display:grid;grid-template-columns:1fr;gap:14px}
-  #writeup .card{display:contents}
-  #writeup .thumb{order:1}
-  #writeup .cb{order:2;padding:10px 0;border-top:1px solid #ddd}
+
+/* Mobile: all three posters first, then the three texts one by one */
+@media (max-width: 767px) {
+
+  /* Improve heading contrast against the blue background */
+  #writeup > h2 {
+    color: #ffffff;
+  }
+
+  #writeup > h2 .en-t {
+    color: #f0f0f0;
+  }
+
+  /* Stack the results in the required order */
+  #writeup .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  #writeup .card {
+    display: contents;
+  }
+
+  #writeup .thumb {
+    order: 1;
+  }
+
+  #writeup .cb {
+    order: 2;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+  }
 }
