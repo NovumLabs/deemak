@@ -30,11 +30,15 @@ form.fb button.go{justify-self:start}
 
 /* ===== Results section (#writeup) fixes ===== */
 
-/* keep the heading and sub-head colour the same on mobile as on desktop.
-   If desktop looks different, replace these two values with the desktop colours. */
-#writeup h2{color:var(--navy) !important}
-#writeup h2 .en-t{color:var(--mute) !important}
+/* Results heading: consistent desktop and mobile colours */
+#writeup > h2 {
+    color: var(--navy) !important;
+    border-top-color: var(--navy);
+}
 
+#writeup > h2 .en-t {
+    color: var(--mute) !important;
+}
 /* mobile: all three posters first, then the three texts one by one */
 @media (max-width:767px){
   #writeup .grid{display:grid;grid-template-columns:1fr;gap:14px}
