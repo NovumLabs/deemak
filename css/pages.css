@@ -45,16 +45,22 @@ form.fb button.go{justify-self:start}
 /* Mobile: all three posters first, then the three texts one by one */
 @media (max-width: 767px) {
 
-  /* Improve heading contrast against the blue background */
-  #writeup > h2 {
-    color: #ffffff;
-  }
+  
+/* ===== Results section (#writeup) fixes ===== */
 
-  #writeup > h2 .en-t {
-    color: #f0f0f0;
-  }
+/* Force the same brownish-yellow colour on all devices */
+#writeup > h2,
+#writeup > h2 .en-t {
+  color: var(--yel) !important;
+}
 
-  /* Stack the results in the required order */
+/* Keep the heading border consistent, if present */
+#writeup > h2 {
+  border-top-color: var(--yel) !important;
+}
+
+/* Mobile: all three posters first, then the three texts one by one */
+@media (max-width: 767px) {
   #writeup .grid {
     display: grid;
     grid-template-columns: 1fr;
