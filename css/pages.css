@@ -28,16 +28,17 @@ form.fb button.go{justify-self:start}
 .dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 22px;max-width:68ch;padding-top:12px}
 .dl dt{font-weight:700;color:var(--navy)}.dl dd{margin:0}
 
-/* keep the results heading the same on mobile as on desktop */
-#writeup h2 {
-  color: var(--navy) !important;
-}
-#writeup h2 .en-t {
-  color: var(--mute) !important;
-}
-@media (max-width: 767px) {
-  #writeup .grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
-  #writeup .card { display: contents; }     /* lets poster and text be ordered separately */
-  #writeup .thumb { order: 1; }             /* all three posters first */
-  #writeup .cb { order: 2; padding: 10px 0; border-top: 1px solid #ddd; } /* then the three texts, one by one */
+/* ===== Results section (#writeup) fixes ===== */
+
+/* keep the heading and sub-head colour the same on mobile as on desktop.
+   If desktop looks different, replace these two values with the desktop colours. */
+#writeup h2{color:var(--navy) !important}
+#writeup h2 .en-t{color:var(--mute) !important}
+
+/* mobile: all three posters first, then the three texts one by one */
+@media (max-width:767px){
+  #writeup .grid{display:grid;grid-template-columns:1fr;gap:14px}
+  #writeup .card{display:contents}
+  #writeup .thumb{order:1}
+  #writeup .cb{order:2;padding:10px 0;border-top:1px solid #ddd}
 }
