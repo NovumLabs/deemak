@@ -27,3 +27,11 @@ form.fb textarea{min-height:150px}
 form.fb button.go{justify-self:start}
 .dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 22px;max-width:68ch;padding-top:12px}
 .dl dt{font-weight:700;color:var(--navy)}.dl dd{margin:0}
+
+/* keep the results heading the same on mobile as on desktop */
+#writeup h2 {
+  color: #DESKTOP-COLOR !important;
+}
+#writeup h2 .en-t {
+  color: #DESKTOP-COLOR !important;   /* English sub-head; use its own desktop colour if different */
+}
