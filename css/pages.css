@@ -30,8 +30,8 @@ form.fb button.go{justify-self:start}
 
 /* keep the results heading the same on mobile as on desktop */
 #writeup h2 {
-  color: #DESKTOP-COLOR !important;
+  color: var(--navy) !important;
 }
 #writeup h2 .en-t {
-  color: #DESKTOP-COLOR !important;   /* English sub-head; use its own desktop colour if different */
+  color: var(--mute) !important;
 }
